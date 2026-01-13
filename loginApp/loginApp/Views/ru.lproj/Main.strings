@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "DYe-uv-zqV"; */
+"DYe-uv-zqV.placeholder" = "Пароль";
+
+/* Class = "UIButton"; configuration.title = "Забыли пароль?"; ObjectID = "FAk-Pv-3n5"; */
+"FAk-Pv-3n5.configuration.title" = "Забыли пароль?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FAk-Pv-3n5"; */
+"FAk-Pv-3n5.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Логин"; ObjectID = "HCX-ZA-qSh"; */
+"HCX-ZA-qSh.placeholder" = "Логин";
+
+/* Class = "UIButton"; configuration.title = "Войти"; ObjectID = "Kbo-aN-lHz"; */
+"Kbo-aN-lHz.configuration.title" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kbo-aN-lHz"; */
+"Kbo-aN-lHz.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Забыли логин?"; ObjectID = "W1k-Zn-BWl"; */
+"W1k-Zn-BWl.configuration.title" = "Забыли логин?";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W1k-Zn-BWl"; */
+"W1k-Zn-BWl.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Cart"; ObjectID = "Xfa-HV-4lH"; */
+"Xfa-HV-4lH.title" = "Cart";
+
+/* Class = "UIButton"; configuration.title = "Выйти"; ObjectID = "ldh-5F-9C4"; */
+"ldh-5F-9C4.configuration.title" = "Выйти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ldh-5F-9C4"; */
+"ldh-5F-9C4.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Авторизация"; ObjectID = "ofo-qL-aR0"; */
+"ofo-qL-aR0.text" = "Авторизация";
