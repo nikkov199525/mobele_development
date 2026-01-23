@@ -29,7 +29,7 @@ struct CatalogView: View {
                                     .foregroundStyle(.secondary)
                             }
                         }
-                        // VoiceOver: одна “карточка” на строку
+
                         .accessibilityElement(children: .ignore)
                         .accessibilityLabel(accessibilityLabel(for: p))
                         .accessibilityHint("Двойной тап — открыть карточку товара")

@@ -32,7 +32,6 @@ struct CartView: View {
                         .accessibilityValue("\(line.quantity)")
                         .accessibilityHint("Свайп вверх или вниз для изменения количества")
                     }
-                    // VoiceOver: строка читается цельно
                     .accessibilityElement(children: .combine)
                 }
                 .onDelete(perform: delete)

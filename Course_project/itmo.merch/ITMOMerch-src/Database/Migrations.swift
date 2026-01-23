@@ -10,12 +10,12 @@ enum Migrations {
                 t.autoIncrementedPrimaryKey("id")
                 t.column("email", .text).notNull().unique(onConflict: .abort)
                 t.column("password_hash", .text).notNull()
-                t.column("isu", .text) // optional
+                t.column("isu", .text)
             }
 
             try db.create(table: "products") { t in
                 t.autoIncrementedPrimaryKey("id")
-                t.column("code", .text).unique(onConflict: .abort) // можно NULL на момент вставки
+                t.column("code", .text).unique(onConflict: .abort)
                 t.column("title", .text).notNull()
                 t.column("details", .text).notNull()
                 t.column("price", .double).notNull()
@@ -53,7 +53,6 @@ enum Migrations {
                 t.column("product_id", .integer).notNull().indexed()
                     .references("products", onDelete: .restrict)
 
-                // снапшоты на момент покупки
                 t.column("title_snapshot", .text).notNull()
                 t.column("price_snapshot", .double).notNull()
                 t.column("quantity", .integer).notNull()

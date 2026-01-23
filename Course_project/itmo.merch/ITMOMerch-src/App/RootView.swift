@@ -40,8 +40,7 @@ struct RootView: View {
                 try AppDatabase.shared.bootstrap()
                 dbReady = true
             } catch {
-                // Если хочешь радикально: можно тут же снести БД и повторить.
-                // Но хотя бы не крашимся молча.
+
                 print("DB bootstrap error: \(error)")
                 dbReady = false
             }
